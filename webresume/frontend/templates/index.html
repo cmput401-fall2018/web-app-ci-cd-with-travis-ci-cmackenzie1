@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Insert Title Here</title>
+    <title>Cole</title>
 
 
     <!-- <link rel="stylesheet" href="style.css"> -->
@@ -33,7 +33,7 @@
 <script>
     $(window).on('load', function () {
         // change the URL to your server URL here
-        $.getJSON("http://127.0.0.1:8000/api/person/1/", function (data) {
+        $.getJSON("http://http://162.246.156.154:8000/api/person/1/", function (data) {
             $("#name").text(data.data.attributes.name);
             $("#about").text(data.data.attributes.about);
             $("#education").text(data.data.attributes.education);
